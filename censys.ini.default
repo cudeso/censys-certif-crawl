@@ -1,0 +1,10 @@
+[censys]
+url = https://www.censys.io/api/v1
+index = /search/certificates
+uid = UID
+secret = SECRET
+
+
+[db]
+db = censys.db
+sql-create = database.sql
